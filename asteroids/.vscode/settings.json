@@ -1,0 +1,15 @@
+{
+  // Turns off the suggestion popup as you type (IntelliSense)
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.parameterHints.enabled": false,
+
+  // Turns off the gray ghost-text completions (Copilot and other AI tools)
+  "editor.inlineSuggest.enabled": false,
+  "github.copilot.enable": { "*": false }
+}
