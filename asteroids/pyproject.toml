@@ -7,3 +7,22 @@ requires-python = ">=3.13"
 dependencies = [
     "pygame==2.6.1",
 ]
+
+[dependency-groups]
+dev = [
+    "basedpyright>=1.40.2",
+    "ruff>=0.17.4",
+]
+
+[tool.ruff.lint]
+# E/F = pycodestyle errors + pyflakes (the defaults), I = import sorting,
+# B = bugbear (common bug patterns), UP = suggest newer Python syntax.
+extend-select = ["I", "B", "UP"]
+
+[tool.basedpyright]
+# "standard" matches plain pyright/Pylance. "recommended" or "strict" are
+# stricter options to try later.
+typeCheckingMode = "standard"
+# uv puts the workspace venv one folder up (boots/.venv), not in asteroids/.
+venvPath = ".."
+venv = ".venv"

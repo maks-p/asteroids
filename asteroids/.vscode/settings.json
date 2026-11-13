@@ -11,5 +11,15 @@
 
   // Turns off the gray ghost-text completions (Copilot and other AI tools)
   "editor.inlineSuggest.enabled": false,
-  "github.copilot.enable": { "*": false }
+  "github.copilot.enable": { "*": false },
+
+  // Ruff's formatter does not sort imports; that is a lint fix (rule I001),
+  // so it has to run as a code action on save, alongside formatting.
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.ruff": "explicit"
+    }
+  }
 }
