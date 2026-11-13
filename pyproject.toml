@@ -23,6 +23,6 @@ extend-select = ["I", "B", "UP"]
 # "standard" matches plain pyright/Pylance. "recommended" or "strict" are
 # stricter options to try later.
 typeCheckingMode = "standard"
-# uv puts the workspace venv one folder up (boots/.venv), not in asteroids/.
-venvPath = ".."
+# uv puts the workspace venv in asteroids/.
+venvPath = "."
 venv = ".venv"
