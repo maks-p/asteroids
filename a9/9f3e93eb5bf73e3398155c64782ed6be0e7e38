@@ -1,0 +1,32 @@
+asteroids/.gitignore
+  h_5aa01f71b79e3d 3
+asteroids/.vscode/settings.json
+  h_5aa01f71b79e3d 14-24
+asteroids/asteroid.py
+  h_5aa01f71b79e3d 1-34
+asteroids/asteroidfield.py
+  h_5aa01f71b79e3d 1-60
+asteroids/circleshape.py
+  h_5aa01f71b79e3d 1-29
+asteroids/constants.py
+  h_5aa01f71b79e3d 3-13
+asteroids/main.py
+  h_5aa01f71b79e3d 1-2,4-11,15-17,20-38,45-46,48-64
+asteroids/player.py
+  h_5aa01f71b79e3d 1-69
+asteroids/pyproject.toml
+  h_5aa01f71b79e3d 10-28
+asteroids/shot.py
+  h_5aa01f71b79e3d 1-15
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "a99f3e93eb5bf73e3398155c64782ed6be0e7e38",
+  "prompts": {},
+  "humans": {
+    "h_5aa01f71b79e3d": {
+      "author": "maks pazuniak <mpazuniak@gmail.com>"
+    }
+  }
+}
