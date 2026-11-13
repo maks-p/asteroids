@@ -1,0 +1,20 @@
+pyproject.toml
+  h_5aa01f71b79e3d 26-27
+.gitignore
+  h_5aa01f71b79e3d 3-4
+.python-version
+  h_5aa01f71b79e3d 1
+uv.lock
+  h_5aa01f71b79e3d 1-94
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "e74bd648b5b1f855f18bf88bb2a3fc26c24e1fbc",
+  "prompts": {},
+  "humans": {
+    "h_5aa01f71b79e3d": {
+      "author": "maks pazuniak <mpazuniak@gmail.com>"
+    }
+  }
+}
